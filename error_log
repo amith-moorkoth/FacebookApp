@@ -1,0 +1,259 @@
+[19-Feb-2017 06:33:38 UTC] PHP Fatal error:  Class 'Facebook\Facebook' not found in /home/aagneyac/public_html/app/index.php on line 3
+[19-Feb-2017 06:33:46 UTC] PHP Fatal error:  Class 'Facebook\Facebook' not found in /home/aagneyac/public_html/app/index.php on line 3
+[19-Feb-2017 06:41:58 UTC] PHP Notice:  Undefined variable: fb in /home/aagneyac/public_html/app/index.php on line 25
+[19-Feb-2017 06:41:58 UTC] PHP Fatal error:  Call to a member function getRedirectLoginHelper() on a non-object in /home/aagneyac/public_html/app/index.php on line 25
+[19-Feb-2017 06:42:21 UTC] PHP Notice:  Undefined variable: fb in /home/aagneyac/public_html/app/index.php on line 27
+[19-Feb-2017 06:42:21 UTC] PHP Fatal error:  Call to a member function getRedirectLoginHelper() on a non-object in /home/aagneyac/public_html/app/index.php on line 27
+[19-Feb-2017 06:42:34 UTC] PHP Notice:  Undefined variable: fb in /home/aagneyac/public_html/app/index.php on line 27
+[19-Feb-2017 06:42:34 UTC] PHP Fatal error:  Call to a member function getRedirectLoginHelper() on a non-object in /home/aagneyac/public_html/app/index.php on line 27
+[19-Feb-2017 06:42:44 UTC] PHP Notice:  Undefined variable: loginUrl in /home/aagneyac/public_html/app/index.php on line 32
+[19-Feb-2017 07:08:29 UTC] PHP Notice:  Undefined variable: config in /home/aagneyac/public_html/app/myapp.php on line 52
+[19-Feb-2017 07:08:29 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Access token metadata contains unexpected app ID.' in /home/aagneyac/public_html/app/Facebook/Authentication/AccessTokenMetadata.php:329
+Stack trace:
+#0 /home/aagneyac/public_html/app/myapp.php(52): Facebook\Authentication\AccessTokenMetadata->validateAppId(NULL)
+#1 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/Authentication/AccessTokenMetadata.php on line 329
+[19-Feb-2017 08:24:32 UTC] PHP Notice:  Undefined property: Facebook\GraphNodes\GraphUser::$url in /home/aagneyac/public_html/app/myapp.php on line 47
+[19-Feb-2017 08:25:40 UTC] PHP Notice:  Undefined index: url in /home/aagneyac/public_html/app/Facebook/GraphNodes/Collection.php on line 201
+[19-Feb-2017 08:26:28 UTC] PHP Notice:  Undefined property: Facebook\GraphNodes\GraphPicture::$url in /home/aagneyac/public_html/app/myapp.php on line 47
+[19-Feb-2017 08:38:06 UTC] PHP Parse error:  syntax error, unexpected 'http' (T_STRING), expecting ',' or ';' in /home/aagneyac/public_html/app/myapp.php on line 67
+[19-Feb-2017 08:38:14 UTC] PHP Parse error:  syntax error, unexpected 'http' (T_STRING), expecting ',' or ';' in /home/aagneyac/public_html/app/myapp.php on line 67
+[19-Feb-2017 09:02:06 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Failed to create FacebookFile entity. Unable to read resource: /photo/PCqJMhUyhSvAYeu0M73vTrCbnMrrOeZDQqnCHiaYaGz8U39Hbdc4EPf1CHtq.jpg.' in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php:88
+Stack trace:
+#0 /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php(69): Facebook\FileUpload\FacebookFile->open()
+#1 /home/aagneyac/public_html/app/Facebook/Facebook.php(538): Facebook\FileUpload\FacebookFile->__construct('/photo/PCqJMhUy...')
+#2 /home/aagneyac/public_html/app/sharefb.php(13): Facebook\Facebook->fileToUpload('/photo/PCqJMhUy...')
+#3 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php on line 88
+[19-Feb-2017 09:02:14 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Failed to create FacebookFile entity. Unable to read resource: /photo/PCqJMhUyhSvAYeu0M73vTrCbnMrrOeZDQqnCHiaYaGz8U39Hbdc4EPf1CHtq.jpg.' in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php:88
+Stack trace:
+#0 /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php(69): Facebook\FileUpload\FacebookFile->open()
+#1 /home/aagneyac/public_html/app/Facebook/Facebook.php(538): Facebook\FileUpload\FacebookFile->__construct('/photo/PCqJMhUy...')
+#2 /home/aagneyac/public_html/app/sharefb.php(13): Facebook\Facebook->fileToUpload('/photo/PCqJMhUy...')
+#3 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php on line 88
+[19-Feb-2017 09:03:40 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Failed to create FacebookFile entity. Unable to read resource: /photo/PCqJMhUyhSvAYeu0M73vTrCbnMrrOeZDQqnCHiaYaGz8U39Hbdc4EPf1CHtq.jpg.' in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php:88
+Stack trace:
+#0 /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php(69): Facebook\FileUpload\FacebookFile->open()
+#1 /home/aagneyac/public_html/app/Facebook/Facebook.php(538): Facebook\FileUpload\FacebookFile->__construct('/photo/PCqJMhUy...')
+#2 /home/aagneyac/public_html/app/sharefb.php(13): Facebook\Facebook->fileToUpload('/photo/PCqJMhUy...')
+#3 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php on line 88
+[19-Feb-2017 09:03:56 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Failed to create FacebookFile entity. Unable to read resource: /photo/PCqJMhUyhSvAYeu0M73vTrCbnMrrOeZDQqnCHiaYaGz8U39Hbdc4EPf1CHtq.jpg.' in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php:88
+Stack trace:
+#0 /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php(69): Facebook\FileUpload\FacebookFile->open()
+#1 /home/aagneyac/public_html/app/Facebook/Facebook.php(538): Facebook\FileUpload\FacebookFile->__construct('/photo/PCqJMhUy...')
+#2 /home/aagneyac/public_html/app/sharefb.php(13): Facebook\Facebook->fileToUpload('/photo/PCqJMhUy...')
+#3 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php on line 88
+[19-Feb-2017 09:04:17 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Failed to create FacebookFile entity. Unable to read resource: /photo/PCqJMhUyhSvAYeu0M73vTrCbnMrrOeZDQqnCHiaYaGz8U39Hbdc4EPf1CHtq.jpg.' in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php:88
+Stack trace:
+#0 /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php(69): Facebook\FileUpload\FacebookFile->open()
+#1 /home/aagneyac/public_html/app/Facebook/Facebook.php(538): Facebook\FileUpload\FacebookFile->__construct('/photo/PCqJMhUy...')
+#2 /home/aagneyac/public_html/app/sharefb.php(13): Facebook\Facebook->fileToUpload('/photo/PCqJMhUy...')
+#3 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php on line 88
+[19-Feb-2017 09:04:19 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Failed to create FacebookFile entity. Unable to read resource: /photo/PCqJMhUyhSvAYeu0M73vTrCbnMrrOeZDQqnCHiaYaGz8U39Hbdc4EPf1CHtq.jpg.' in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php:88
+Stack trace:
+#0 /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php(69): Facebook\FileUpload\FacebookFile->open()
+#1 /home/aagneyac/public_html/app/Facebook/Facebook.php(538): Facebook\FileUpload\FacebookFile->__construct('/photo/PCqJMhUy...')
+#2 /home/aagneyac/public_html/app/sharefb.php(13): Facebook\Facebook->fileToUpload('/photo/PCqJMhUy...')
+#3 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php on line 88
+[19-Feb-2017 09:04:32 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Failed to create FacebookFile entity. Unable to read resource: /photo/PCqJMhUyhSvAYeu0M73vTrCbnMrrOeZDQqnCHiaYaGz8U39Hbdc4EPf1CHtq.jpg.' in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php:88
+Stack trace:
+#0 /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php(69): Facebook\FileUpload\FacebookFile->open()
+#1 /home/aagneyac/public_html/app/Facebook/Facebook.php(538): Facebook\FileUpload\FacebookFile->__construct('/photo/PCqJMhUy...')
+#2 /home/aagneyac/public_html/app/sharefb.php(13): Facebook\Facebook->fileToUpload('/photo/PCqJMhUy...')
+#3 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php on line 88
+[19-Feb-2017 09:05:19 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Failed to create FacebookFile entity. Unable to read resource: /photo/PCqJMhUyhSvAYeu0M73vTrCbnMrrOeZDQqnCHiaYaGz8U39Hbdc4EPf1CHtq.jpg.' in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php:88
+Stack trace:
+#0 /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php(69): Facebook\FileUpload\FacebookFile->open()
+#1 /home/aagneyac/public_html/app/Facebook/Facebook.php(538): Facebook\FileUpload\FacebookFile->__construct('/photo/PCqJMhUy...')
+#2 /home/aagneyac/public_html/app/sharefb.php(13): Facebook\Facebook->fileToUpload('/photo/PCqJMhUy...')
+#3 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php on line 88
+[19-Feb-2017 09:05:58 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/aagneyac/public_html/app/sharefb.php on line 13
+[19-Feb-2017 09:06:50 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Failed to create FacebookFile entity. Unable to read resource: /photo/PCqJMhUyhSvAYeu0M73vTrCbnMrrOeZDQqnCHiaYaGz8U39Hbdc4EPf1CHtq.png.' in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php:88
+Stack trace:
+#0 /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php(69): Facebook\FileUpload\FacebookFile->open()
+#1 /home/aagneyac/public_html/app/Facebook/Facebook.php(538): Facebook\FileUpload\FacebookFile->__construct('/photo/PCqJMhUy...')
+#2 /home/aagneyac/public_html/app/sharefb.php(11): Facebook\Facebook->fileToUpload('/photo/PCqJMhUy...')
+#3 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php on line 88
+[19-Feb-2017 09:07:21 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Failed to create FacebookFile entity. Unable to read resource: /photo/abc.png.' in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php:88
+Stack trace:
+#0 /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php(69): Facebook\FileUpload\FacebookFile->open()
+#1 /home/aagneyac/public_html/app/Facebook/Facebook.php(538): Facebook\FileUpload\FacebookFile->__construct('/photo/abc.png')
+#2 /home/aagneyac/public_html/app/sharefb.php(11): Facebook\Facebook->fileToUpload('/photo/abc.png')
+#3 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php on line 88
+[19-Feb-2017 09:16:07 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Failed to create FacebookFile entity. Unable to read resource: /photo/cKEcYuocZJV41j7VMEABsfFSSl8U2QceARqylPKlzGpBZxwLb6mDm2wenF9qpng.' in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php:88
+Stack trace:
+#0 /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php(69): Facebook\FileUpload\FacebookFile->open()
+#1 /home/aagneyac/public_html/app/Facebook/Facebook.php(538): Facebook\FileUpload\FacebookFile->__construct('/photo/cKEcYuoc...')
+#2 /home/aagneyac/public_html/app/sharefb.php(37): Facebook\Facebook->fileToUpload('/photo/cKEcYuoc...')
+#3 /home/aagneyac/public_html/app/sharefb.php(26): getmeimg()
+#4 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php on line 88
+[19-Feb-2017 09:17:05 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Failed to create FacebookFile entity. Unable to read resource: /photo/cKEcYuocZJV41j7VMEABsfFSSl8U2QceARqylPKlzGpBZxwLb6mDm2wenF9qpng.' in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php:88
+Stack trace:
+#0 /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php(69): Facebook\FileUpload\FacebookFile->open()
+#1 /home/aagneyac/public_html/app/Facebook/Facebook.php(538): Facebook\FileUpload\FacebookFile->__construct('/photo/cKEcYuoc...')
+#2 /home/aagneyac/public_html/app/sharefb.php(37): Facebook\Facebook->fileToUpload('/photo/cKEcYuoc...')
+#3 /home/aagneyac/public_html/app/sharefb.php(26): getmeimg()
+#4 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php on line 88
+[19-Feb-2017 09:18:06 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Failed to create FacebookFile entity. Unable to read resource: /photo/cKEcYuocZJV41j7VMEABsfFSSl8U2QceARqylPKlzGpBZxwLb6mDm2wenF9qpng.' in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php:88
+Stack trace:
+#0 /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php(69): Facebook\FileUpload\FacebookFile->open()
+#1 /home/aagneyac/public_html/app/Facebook/Facebook.php(538): Facebook\FileUpload\FacebookFile->__construct('/photo/cKEcYuoc...')
+#2 /home/aagneyac/public_html/app/sharefb.php(37): Facebook\Facebook->fileToUpload('/photo/cKEcYuoc...')
+#3 /home/aagneyac/public_html/app/sharefb.php(26): getmeimg()
+#4 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php on line 88
+[19-Feb-2017 09:18:59 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Failed to create FacebookFile entity. Unable to read resource: /photo/cKEcYuocZJV41j7VMEABsfFSSl8U2QceARqylPKlzGpBZxwLb6mDm2wenF9q.png.' in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php:88
+Stack trace:
+#0 /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php(69): Facebook\FileUpload\FacebookFile->open()
+#1 /home/aagneyac/public_html/app/Facebook/Facebook.php(538): Facebook\FileUpload\FacebookFile->__construct('/photo/cKEcYuoc...')
+#2 /home/aagneyac/public_html/app/sharefb.php(37): Facebook\Facebook->fileToUpload('/photo/cKEcYuoc...')
+#3 /home/aagneyac/public_html/app/sharefb.php(26): getmeimg()
+#4 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php on line 88
+[19-Feb-2017 09:19:41 UTC] PHP Notice:  Undefined variable: accessToken in /home/aagneyac/public_html/app/sharefb.php on line 42
+[19-Feb-2017 09:20:29 UTC] PHP Notice:  Undefined variable: accessToken in /home/aagneyac/public_html/app/sharefb.php on line 39
+[19-Feb-2017 09:20:29 UTC] PHP Notice:  Undefined variable: accessToken in /home/aagneyac/public_html/app/sharefb.php on line 42
+[19-Feb-2017 09:21:07 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Cross-site request forgery validation failed. Required param "state" missing from persistent data.' in /home/aagneyac/public_html/app/Facebook/Helpers/FacebookRedirectLoginHelper.php:244
+Stack trace:
+#0 /home/aagneyac/public_html/app/Facebook/Helpers/FacebookRedirectLoginHelper.php(221): Facebook\Helpers\FacebookRedirectLoginHelper->validateCsrf()
+#1 /home/aagneyac/public_html/app/sharefb.php(35): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#2 /home/aagneyac/public_html/app/sharefb.php(26): getmeimg()
+#3 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/Helpers/FacebookRedirectLoginHelper.php on line 244
+[19-Feb-2017 09:21:35 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Cross-site request forgery validation failed. Required param "state" missing from persistent data.' in /home/aagneyac/public_html/app/Facebook/Helpers/FacebookRedirectLoginHelper.php:244
+Stack trace:
+#0 /home/aagneyac/public_html/app/Facebook/Helpers/FacebookRedirectLoginHelper.php(221): Facebook\Helpers\FacebookRedirectLoginHelper->validateCsrf()
+#1 /home/aagneyac/public_html/app/sharefb.php(35): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#2 /home/aagneyac/public_html/app/sharefb.php(26): getmeimg()
+#3 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/Helpers/FacebookRedirectLoginHelper.php on line 244
+[19-Feb-2017 09:21:52 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Cross-site request forgery validation failed. Required param "state" missing from persistent data.' in /home/aagneyac/public_html/app/Facebook/Helpers/FacebookRedirectLoginHelper.php:244
+Stack trace:
+#0 /home/aagneyac/public_html/app/Facebook/Helpers/FacebookRedirectLoginHelper.php(221): Facebook\Helpers\FacebookRedirectLoginHelper->validateCsrf()
+#1 /home/aagneyac/public_html/app/sharefb.php(35): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#2 /home/aagneyac/public_html/app/sharefb.php(26): getmeimg()
+#3 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/Helpers/FacebookRedirectLoginHelper.php on line 244
+[19-Feb-2017 09:22:17 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Cross-site request forgery validation failed. Required param "state" missing from persistent data.' in /home/aagneyac/public_html/app/Facebook/Helpers/FacebookRedirectLoginHelper.php:244
+Stack trace:
+#0 /home/aagneyac/public_html/app/Facebook/Helpers/FacebookRedirectLoginHelper.php(221): Facebook\Helpers\FacebookRedirectLoginHelper->validateCsrf()
+#1 /home/aagneyac/public_html/app/sharefb.php(35): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#2 /home/aagneyac/public_html/app/sharefb.php(26): getmeimg()
+#3 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/Helpers/FacebookRedirectLoginHelper.php on line 244
+[19-Feb-2017 09:22:47 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Cross-site request forgery validation failed. Required param "state" missing from persistent data.' in /home/aagneyac/public_html/app/Facebook/Helpers/FacebookRedirectLoginHelper.php:244
+Stack trace:
+#0 /home/aagneyac/public_html/app/Facebook/Helpers/FacebookRedirectLoginHelper.php(221): Facebook\Helpers\FacebookRedirectLoginHelper->validateCsrf()
+#1 /home/aagneyac/public_html/app/sharefb.php(35): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#2 /home/aagneyac/public_html/app/sharefb.php(26): getmeimg()
+#3 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/Helpers/FacebookRedirectLoginHelper.php on line 244
+[19-Feb-2017 09:23:19 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Cross-site request forgery validation failed. Required param "state" missing from persistent data.' in /home/aagneyac/public_html/app/Facebook/Helpers/FacebookRedirectLoginHelper.php:244
+Stack trace:
+#0 /home/aagneyac/public_html/app/Facebook/Helpers/FacebookRedirectLoginHelper.php(221): Facebook\Helpers\FacebookRedirectLoginHelper->validateCsrf()
+#1 /home/aagneyac/public_html/app/sharefb.php(35): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#2 /home/aagneyac/public_html/app/sharefb.php(26): getmeimg()
+#3 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/Helpers/FacebookRedirectLoginHelper.php on line 244
+[19-Feb-2017 09:23:40 UTC] PHP Notice:  Undefined variable: accessToken in /home/aagneyac/public_html/app/sharefb.php on line 37
+[19-Feb-2017 09:24:03 UTC] PHP Notice:  Undefined variable: accessToken in /home/aagneyac/public_html/app/sharefb.php on line 37
+[19-Feb-2017 09:25:46 UTC] PHP Notice:  Undefined variable: file in /home/aagneyac/public_html/app/sharefb.php on line 36
+[19-Feb-2017 09:25:46 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Failed to create FacebookFile entity. Unable to read resource: .' in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php:88
+Stack trace:
+#0 /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php(69): Facebook\FileUpload\FacebookFile->open()
+#1 /home/aagneyac/public_html/app/Facebook/Facebook.php(538): Facebook\FileUpload\FacebookFile->__construct(NULL)
+#2 /home/aagneyac/public_html/app/sharefb.php(36): Facebook\Facebook->fileToUpload(NULL)
+#3 /home/aagneyac/public_html/app/sharefb.php(26): getmeimg(Object(Facebook\Authentication\AccessToken))
+#4 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php on line 88
+[19-Feb-2017 09:26:46 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Failed to create FacebookFile entity. Unable to read resource: /path/to/photo.jpg.' in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php:88
+Stack trace:
+#0 /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php(69): Facebook\FileUpload\FacebookFile->open()
+#1 /home/aagneyac/public_html/app/Facebook/Facebook.php(538): Facebook\FileUpload\FacebookFile->__construct('/path/to/photo....')
+#2 /home/aagneyac/public_html/app/sharefb.php(36): Facebook\Facebook->fileToUpload('/path/to/photo....')
+#3 /home/aagneyac/public_html/app/sharefb.php(26): getmeimg(Object(Facebook\Authentication\AccessToken))
+#4 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php on line 88
+[19-Feb-2017 09:27:26 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Failed to create FacebookFile entity. Unable to read resource: /path/to/photo.jpg.' in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php:88
+Stack trace:
+#0 /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php(69): Facebook\FileUpload\FacebookFile->open()
+#1 /home/aagneyac/public_html/app/Facebook/Facebook.php(538): Facebook\FileUpload\FacebookFile->__construct('/path/to/photo....')
+#2 /home/aagneyac/public_html/app/sharefb.php(36): Facebook\Facebook->fileToUpload('/path/to/photo....')
+#3 /home/aagneyac/public_html/app/sharefb.php(26): getmeimg(Object(Facebook\Authentication\AccessToken))
+#4 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php on line 88
+[19-Feb-2017 09:58:22 UTC] PHP Parse error:  syntax error, unexpected 'imagealphablending' (T_STRING) in /home/aagneyac/public_html/app/myapp.php on line 57
+[19-Feb-2017 09:59:12 UTC] PHP Parse error:  syntax error, unexpected 'imagealphablending' (T_STRING) in /home/aagneyac/public_html/app/myapp.php on line 57
+[19-Feb-2017 10:00:30 UTC] PHP Parse error:  syntax error, unexpected 'imagealphablending' (T_STRING) in /home/aagneyac/public_html/app/myapp.php on line 56
+[19-Feb-2017 12:54:23 UTC] PHP Notice:  Undefined variable: nWidth in /home/aagneyac/public_html/app/myapp.php on line 56
+[19-Feb-2017 12:54:23 UTC] PHP Notice:  Undefined variable: nHeight in /home/aagneyac/public_html/app/myapp.php on line 56
+[19-Feb-2017 12:54:23 UTC] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/aagneyac/public_html/app/myapp.php on line 56
+[19-Feb-2017 12:54:23 UTC] PHP Warning:  imagealphablending() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 57
+[19-Feb-2017 12:54:23 UTC] PHP Warning:  imagesavealpha() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 58
+[19-Feb-2017 12:54:23 UTC] PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 59
+[19-Feb-2017 12:54:23 UTC] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 60
+[19-Feb-2017 12:54:23 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 61
+[19-Feb-2017 12:54:23 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 69
+[19-Feb-2017 12:54:23 UTC] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 80
+[19-Feb-2017 12:54:46 UTC] PHP Notice:  Undefined variable: nWidth in /home/aagneyac/public_html/app/myapp.php on line 56
+[19-Feb-2017 12:54:46 UTC] PHP Notice:  Undefined variable: nHeight in /home/aagneyac/public_html/app/myapp.php on line 56
+[19-Feb-2017 12:54:46 UTC] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/aagneyac/public_html/app/myapp.php on line 56
+[19-Feb-2017 12:54:46 UTC] PHP Warning:  imagealphablending() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 57
+[19-Feb-2017 12:54:46 UTC] PHP Warning:  imagesavealpha() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 58
+[19-Feb-2017 12:54:46 UTC] PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 59
+[19-Feb-2017 12:54:46 UTC] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 60
+[19-Feb-2017 12:54:46 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 61
+[19-Feb-2017 12:54:46 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 69
+[19-Feb-2017 12:54:46 UTC] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 80
+[19-Feb-2017 12:55:22 UTC] PHP Notice:  Undefined variable: nWidth in /home/aagneyac/public_html/app/myapp.php on line 56
+[19-Feb-2017 12:55:22 UTC] PHP Notice:  Undefined variable: nHeight in /home/aagneyac/public_html/app/myapp.php on line 56
+[19-Feb-2017 12:55:22 UTC] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/aagneyac/public_html/app/myapp.php on line 56
+[19-Feb-2017 12:55:22 UTC] PHP Warning:  imagealphablending() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 57
+[19-Feb-2017 12:55:22 UTC] PHP Warning:  imagesavealpha() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 58
+[19-Feb-2017 12:55:22 UTC] PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 59
+[19-Feb-2017 12:55:22 UTC] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 60
+[19-Feb-2017 12:55:22 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 61
+[19-Feb-2017 12:55:22 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 69
+[19-Feb-2017 12:55:22 UTC] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 80
+[19-Feb-2017 12:55:35 UTC] PHP Notice:  Undefined variable: nWidth in /home/aagneyac/public_html/app/myapp.php on line 56
+[19-Feb-2017 12:55:35 UTC] PHP Notice:  Undefined variable: nHeight in /home/aagneyac/public_html/app/myapp.php on line 56
+[19-Feb-2017 12:55:35 UTC] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/aagneyac/public_html/app/myapp.php on line 56
+[19-Feb-2017 12:55:35 UTC] PHP Warning:  imagealphablending() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 57
+[19-Feb-2017 12:55:35 UTC] PHP Warning:  imagesavealpha() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 58
+[19-Feb-2017 12:55:35 UTC] PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 59
+[19-Feb-2017 12:55:35 UTC] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 60
+[19-Feb-2017 12:55:35 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 61
+[19-Feb-2017 12:55:35 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 69
+[19-Feb-2017 12:55:35 UTC] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 80
+[19-Feb-2017 13:05:38 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 62
+[19-Feb-2017 13:05:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aagneyac/public_html/app/myapp.php:105) in /home/aagneyac/public_html/app/myapp.php on line 65
+[19-Feb-2017 13:05:38 UTC] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 73
+[19-Feb-2017 13:05:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aagneyac/public_html/app/myapp.php:105) in /home/aagneyac/public_html/app/myapp.php on line 74
+[19-Feb-2017 13:06:20 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 62
+[19-Feb-2017 13:06:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aagneyac/public_html/app/myapp.php:105) in /home/aagneyac/public_html/app/myapp.php on line 65
+[19-Feb-2017 13:06:20 UTC] PHP Warning:  imagepng() expects parameter 1 to be resource, boolean given in /home/aagneyac/public_html/app/myapp.php on line 73
+[19-Feb-2017 13:06:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aagneyac/public_html/app/myapp.php:105) in /home/aagneyac/public_html/app/myapp.php on line 74
+[19-Feb-2017 13:09:55 UTC] PHP Fatal error:  Call to undefined function imagescale() in /home/aagneyac/public_html/app/myapp.php on line 57
+[19-Feb-2017 13:27:30 UTC] PHP Fatal error:  Call to undefined function imagescale() in /home/aagneyac/public_html/app/myapp.php on line 119
+[19-Feb-2017 13:28:19 UTC] PHP Fatal error:  Call to undefined function imagescale() in /home/aagneyac/public_html/app/myapp.php on line 119
+[19-Feb-2017 14:02:19 UTC] PHP Warning:  fopen(http://aagneya.co.in/app/photo/4AUO3dgeERBQfGV8HStEMOuEEQsOUHeYh8Mkm3z1VbRbRMjyENdrBI5gyy5t.png): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php on line 91
+[19-Feb-2017 14:02:21 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Failed to create FacebookFile entity. Unable to open resource: http://aagneya.co.in/app/photo/4AUO3dgeERBQfGV8HStEMOuEEQsOUHeYh8Mkm3z1VbRbRMjyENdrBI5gyy5t.png.' in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php:94
+Stack trace:
+#0 /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php(69): Facebook\FileUpload\FacebookFile->open()
+#1 /home/aagneyac/public_html/app/Facebook/Facebook.php(538): Facebook\FileUpload\FacebookFile->__construct('http://aagneya....')
+#2 /home/aagneyac/public_html/app/sharefb.php(36): Facebook\Facebook->fileToUpload('http://aagneya....')
+#3 /home/aagneyac/public_html/app/sharefb.php(26): getmeimg(Object(Facebook\Authentication\AccessToken))
+#4 {main}
+  thrown in /home/aagneyac/public_html/app/Facebook/FileUpload/FacebookFile.php on line 94
